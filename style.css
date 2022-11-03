@@ -1,0 +1,50 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   background-color: lightblue;
+}
+
+main {
+   width: 300px;
+   height: 400px;
+   overflow: hidden;
+   background-color: white;
+   border-radius: 20px 20px 20px 20px;
+   position: relative;
+   top: 10em;
+}
+
+#avatarImage {
+   border: 1px solid white;
+   border-radius: 50%;
+   position: absolute;
+   top: 40px;
+   left: 100px;
+}
+
+#personalInformation {
+   margin-top: 70px;
+   font: 15pt arial;
+   text-align: center;
+}
+#personalInformation p {
+   margin: 15px;
+}
+
+#accountData {
+   display: flex;
+   justify-content: space-around;
+   padding: 20px 10px 20px 10px;
+   color: #a1a1a1;
+}
+#accountData div strong {
+   font: 15pt arial;
+   font-weight: 500;
+   color: initial; 
+}
